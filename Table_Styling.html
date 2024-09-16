@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Styling a Table</title>
+    </head>
+    <body>
+        <style>
+            table{
+                border: 1px solid #666565;
+                background-color: #f0f0f0; 
+            }
+
+            th, td{
+                border: 1px solid #666565;
+                text-align:center;
+            }
+
+            th {
+                background-color: #333;
+                color: #fff;
+            }
+
+            td {
+                background-color: #fff;
+            }
+        </style>
+        <table>
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Days</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>January</td>
+                    <td>31</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>28</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
