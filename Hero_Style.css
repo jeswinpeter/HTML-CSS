@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: Arial,sans-serif;
+    line-height: 2;
+    color: #333;
+}
+
+.hero {
+    background-image: url('D:/HTML CSS/IMAGES/Hero_image.jpg');
+    background-size: cover;
+    height: 100vh;
+}
