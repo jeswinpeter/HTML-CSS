@@ -11,7 +11,21 @@ body {
 }
 
 .hero {
-    background-image: url('D:/HTML CSS/IMAGES/Hero_image.jpg');
+    background-image: url("D:/HTML CSS/IMAGES/Hero_image.jpg");
     background-size: cover;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(218, 5, 5, 0.651); /* add a box shadow */
+    padding: 10px;
+    font-size: 36px;
+}
+
+.hero h1, .hero p {
+    background-color: #2c2525a9; /* background color */
+    color: #0df1f1; /* font color */
+    padding: 10px; /* add some padding to create a box effect */
+    border-radius: 10px;
 }
