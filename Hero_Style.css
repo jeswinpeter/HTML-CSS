@@ -37,3 +37,35 @@ body {
     padding: 25px; /* add some padding to create a box effect */
     border-radius: 10px;
 }
+
+.hero-container {
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    margin: 20px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #161111cb;
+    padding: 15px; /* add some padding to create a box effect */
+    border-radius: 10px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
