@@ -17,7 +17,7 @@ body {
 }
 
 .hero {
-    background-image: url("D:/HTML CSS/IMAGES/Hero_image.jpg");
+    background-image: url("D:/HTML CSS/IMAES/Hero_image.jpg");
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -31,6 +31,10 @@ body {
 
 .bubble {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #161111cb; /* background color */
     color: #f7be06; /* font color */
     backdrop-filter: blur(2px);
@@ -42,30 +46,38 @@ body {
     position: relative;
 }
 
+.Menu {
+    
+    margin-left: -10%;
+    backdrop-filter: blur(2px);
+}
+
 nav {
     position: absolute;
     top: 0;
-    right: 0;
-    z-index: 1;
+    margin-left: 50%;
+    margin-right: 50%;
+    align-items: center;
     margin: 20px;
 }
 
 nav ul {
     list-style: none;
+    text-align: center;
     background-color: #161111cb;
+    margin-left: -10%;
     padding: 15px; /* add some padding to create a box effect */
     border-radius: 10px;
-    margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 nav li {
-    margin-right: 20px;
+    margin-right: 60px;
 }
 
 nav a {
-    color: #fff;
+    color: #f7be06; /* font color */
     text-decoration: none;
 }
