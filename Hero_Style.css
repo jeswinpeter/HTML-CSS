@@ -17,7 +17,7 @@ body {
 }
 
 .hero {
-    background-image: url("D:/HTML CSS/IMAES/Hero_image.jpg");
+    background-image: url("D:/HTML CSS/IMAGES/Hero_image.jpg");
     background-size: cover;
     height: 100vh;
     display: flex;
